@@ -1,13 +1,15 @@
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./routes/Home";
-import Navigation from "./routes/Nav";
+import Profile from "./routes/About";
 
 
 function App() {
   return <Router>
     <Switch>
+      <Route path="/Profile">
+          <Profile />
+        </Route>
       <Route path="/">
-        <Navigation />
         <Home />
       </Route>
     </Switch>
