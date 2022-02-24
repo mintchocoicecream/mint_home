@@ -8,16 +8,24 @@ function Home() {
         <h2>Project</h2>
       </div>
       <div id={styles.resume}>
-        <div className={styles.content}>
+        <div className={styles.content} id="2022">
           <h3>2022</h3>
           <ul>
-            <li>zoom clone</li>
-            <li>React Movie App</li>
-            <li>React Native</li>
-            <li>VanillaJS TodoList</li>
+            <li>2022.02.14 ~ 2022.02.21
+              <p>zoom clone</p>
+            </li>
+            <li>2022.02.07 ~ 2022.02.13
+              <p>React Native Weather & Todolist 만들기</p>
+            </li>
+            <li>2022.01.24 ~ 2022.02.08
+              <p>React Movie App</p>
+            </li>
+            <li>2022.01.10 ~ 2022.01.23
+              <p>VanillaJS Chrome App Challenge</p>
+            </li>
           </ul>
         </div>
-        <div className={styles.content}>
+        <div className={styles.content} id="2021">
           <h3>2021</h3>
           <ul>
             <li>2021.04.19 ~ 2021.06.30
@@ -25,7 +33,7 @@ function Home() {
             </li>
           </ul>
         </div>
-        <div className={styles.content}>
+        <div className={styles.content} id="2020">
           <h3>2020</h3>
           <ul>
             <li>2020.05 ~ 2020.11
