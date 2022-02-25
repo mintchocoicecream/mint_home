@@ -151,18 +151,26 @@ footer {
   --bs-bg-opacity: 1;
   background-color: rgb(242, 255, 250);
   color: #5a5a5a77;
-  min-width: 992px;
-  flex-wrap: nowrap;
+  
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  flex-direction: row-reverse;
+  
 }
 
-footer div{
+.footerDiv{
+  width: 100%;
+  display: flex;
   margin-right: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer h5{
+  text-align: center;
 }
 
 *,

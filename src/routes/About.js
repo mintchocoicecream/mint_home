@@ -16,6 +16,11 @@ function Profile() {
       </div>
       <div id={styles.info}>
         <div className={styles.content}>
+          <h3>서현정 Seo Hyunjeong</h3>
+          <h3>skill</h3>
+          <ul>
+            <li>Python, Javascript, React, Html, CSS, Oracle</li>
+          </ul>
           <h3>좋아하는 것</h3>
           <ul>
             <li>여행, 독서, 사진</li>
