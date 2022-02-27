@@ -3,6 +3,18 @@ import {Link} from "react-router-dom";
 import "../css/bootstrap.css";
 
 function Navigation() {
+    const navbar = document.getElementById("navbar");
+    const sticky = navbar.offsetTop;
+
+    window.onscroll = sticky();
+
+    function sticky() {
+        if(window.pageYOffset >= sticky){
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">

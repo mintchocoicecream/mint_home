@@ -23,6 +23,18 @@ body {
   align-items: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 .container-fluid {
@@ -38,9 +50,11 @@ body {
 }
 
 .navbar-brand {
- color: #5a5a5a;
- font-weight: bold;
- padding-top: 0.3125rem;
+  color: #ffffffaf;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 2px 1px #20c997;
+  padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -110,7 +124,7 @@ li {
 }
 
 header {
-   margin: 50px auto 20px auto;
+   margin: 40px auto 30px auto;
    max-width: 1080px;
    text-align: center;
    display: block;
@@ -123,7 +137,7 @@ header div{
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 2px 3px 3px rgba(119, 119, 119, 0.493);
+  box-shadow: 5px 5px 3px rgba(119, 119, 119, 0.493);
   border-radius: 10px;
 }
 
@@ -134,15 +148,17 @@ header a {
    margin-inline-start: 0px;
    margin-inline-end: 0px;
    font-weight: bold;
+   font-family:'Times New Roman', Times, serif;
+   font-style: italic;
    line-height: 1.5;
    font-size: 40px;
    cursor: pointer;
-   color: #d6d6d681;
+   color: #d6d6d669;
    text-decoration: solid;
 }
 
 header a:hover{
-  color: #20c9969f;
+  color: #ffffff71;
 }
 
 footer {

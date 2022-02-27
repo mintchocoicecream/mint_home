@@ -16,7 +16,7 @@
     <title>Mintchoco</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">Mintchoco</a>    
         <div class="collapse navbar-collapse" id="navbarColor03">
@@ -38,11 +38,25 @@
         <a href="/">MintchocoIcecream</a>
       </div>
     </header>
-    <div id="root"></div>
+    <div id="root" class="content"></div>
     <footer id="footer">
       <div class="footerDiv">
         <h5>@MintchocoIcecream</h5>
       </div>
     </footer>
   </body>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    const navbar = document.getElementById("navbar");
+    const sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 </html>
