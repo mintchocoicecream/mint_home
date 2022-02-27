@@ -33,7 +33,7 @@ body {
   width: 100%;
 }
 
-.sticky + .content {
+.sticky + .header {
   padding-top: 60px;
 }
 
