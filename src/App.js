@@ -1,6 +1,7 @@
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./routes/Home";
+import Project from "./routes/Project";
 import Profile from "./routes/About";
+import Home from "./routes/Home";
 
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
       <Route path="/Profile">
           <Profile />
         </Route>
+      <Route path="/Project">
+        <Project />
+      </Route>
       <Route path="/">
         <Home />
       </Route>

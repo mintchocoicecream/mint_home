@@ -21,7 +21,7 @@ text-decoration: underline;
 }
 
 #info {
-  background-color: #0707070c;
+  background-color: rgb(248, 245, 241);
   width: 90%;
   border-radius: 10px;
   font-family: 'Noto Sans KR', sans-serif;

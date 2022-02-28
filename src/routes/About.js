@@ -4,9 +4,12 @@ import styles from "../css/About.module.css";
 function Profile() {
     const homeNav = document.getElementById("homeNav");
     const profileNav = document.getElementById("profileNav");
+    const projectNav = document.getElementById("projectNav");
     const homeactive = homeNav.querySelector("a");
     const profileactive = profileNav.querySelector("a");
+    const projectactive = projectNav.querySelector("a");
     homeactive.classList.remove("active");
+    projectactive.classList.remove("active");
     profileactive.classList.add("active");
 
   return (
