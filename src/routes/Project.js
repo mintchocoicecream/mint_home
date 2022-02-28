@@ -2,15 +2,6 @@ import React from "react";
 import styles from "../css/Project.module.css";
 
 function Project() {
-    const homeNav = document.getElementById("homeNav");
-    const profileNav = document.getElementById("profileNav");
-    const projectNav = document.getElementById("projectNav");
-    const homeactive = homeNav.querySelector("a");
-    const profileactive = profileNav.querySelector("a");
-    const projectactive = projectNav.querySelector("a");
-    homeactive.classList.remove("active");
-    profileactive.classList.remove("active");
-    projectactive.classList.add("active");
 
   return (
     <div className={styles.container}>
