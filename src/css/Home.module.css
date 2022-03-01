@@ -17,7 +17,7 @@
     border-radius: 10px;
     box-shadow: 2px 3px 10px rgba(119, 119, 119, 0.493);
     background-color: rgba(255, 255, 255, 0.356);
-    margin: 3rem auto;
+    margin: 0 auto;
     padding: 2rem;
     justify-content: center;
     align-items: center;
@@ -26,8 +26,8 @@
 .griditem {
     background-color: rgb(248, 245, 241);
     box-shadow: 2px 3px 10px rgba(119, 119, 119, 0.493);
-    width: 400px;
-    height: 250px;
+    width: 380px;
+    height: 200px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -42,10 +42,11 @@
 }
 
 .griditem a {
-    color: rgba(0, 0, 0, 0.726);
+    color: rgba(26, 26, 26, 0.726);
     align-items: center;
     font-size: 35px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .griditem:hover{
@@ -56,4 +57,3 @@
 .griditem:hover a{
     color: #20c996a2;
 }
-

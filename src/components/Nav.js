@@ -3,22 +3,27 @@ import {Link} from "react-router-dom";
 import styles from "../css/Header.module.css";
 
 function Navigation() {
-
     return (
         <nav className={styles.navbar} id="navbar">
             <div className={styles.containerFluid}>
-            <a className={styles.navbarBrand} id="main" href="/">Mintchoco</a>    
+            <Link className={styles.navbarBrand} id="main" to="/">Mintchoco</Link>    
                 <div className={styles.navbarCollapse}>
                     <ul className={styles.navbarNav}>
-                        <li className={styles.navItem} id="home">
-                            <Link className={styles.navLink} to="/">Home
+                        <li className={styles.navItem} id="navItem">
+                            <Link id="home" to="/">Home
                             </Link>
                         </li>
-                        <li className={styles.navItem} id="project">
-                            <Link className={styles.navLink} to="/Project">Project</Link>
+                        <li className={styles.navItem} id="navItem">
+                            <Link id="project" to="/Project">Project</Link>
                         </li>
-                        <li className={styles.navItem} id="profile">
-                            <Link className={styles.navLink} to="/Profile">Profile</Link>
+                        <li className={styles.navItem} id="navItem">
+                            <Link id="board" to="/Board">Board</Link>
+                        </li>
+                        <li className={styles.navItem} id="navItem">
+                            <Link id="profile" to="/Profile">Profile</Link>
+                        </li>
+                        <li className={styles.navItem} id="navItem">
+                            <Link id="contact" to="/Contact">Contact</Link>
                         </li>
                     </ul>
                 </div>

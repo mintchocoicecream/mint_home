@@ -2,6 +2,18 @@ import React from "react";
 import styles from "../css/Project.module.css";
 
 function Project() {
+  React.useEffect(() => {
+    const navHome = document.getElementById("home");
+    const navProj = document.getElementById("project");
+    const navBoard = document.getElementById("board");
+    const navProf = document.getElementById("profile");
+    const navCont = document.getElementById("contact");
+    navProj.style.color = "#20c997";
+    navBoard.style.color = "#5a5a5a";
+    navProf.style.color = "#5a5a5a";
+    navCont.style.color = "#5a5a5a";
+    navHome.style.color = "#5a5a5a";
+  }, [])
 
   return (
     <div className={styles.container}>
@@ -30,7 +42,7 @@ function Project() {
                   <span className={styles.dropbtn}>- React Native Weather & Todolist 만들기</span>
                   <div className={styles.dropdownContent}>
                     <a href="https://github.com/mintchocoicecream/WorkHardTravelHardApp.git">github</a>
-                    <a href="#">ppt</a>
+                    <a href="">App</a>
                   </div>
               </div>
             </div>
@@ -85,7 +97,7 @@ function Project() {
                   <span className={styles.dropbtn}>- SpringFramework을 이용한 웹 서비스 개발 프로젝트</span>
                   <div className={styles.dropdownContent}>
                     <a href="https://github.com/mintchocoicecream/SOULMOVIE.git">github</a>
-                    <a href="#">ppt</a>
+                    <a href="https://drive.google.com/file/d/172TDUcDLfQ7XBLwc3t12CFtuXJ5UKhUB/view?usp=sharing">ppt</a>
                   </div>
                 </div>
               </div>
@@ -94,7 +106,7 @@ function Project() {
                   <span className={styles.dropbtn}>- Python을 활용한 데이터 분석 프로젝트</span>
                   <div className={styles.dropdownContent}>
                     <a href="https://github.com/mintchocoicecream/2020KBO.git">github</a>
-                    <a href="#">ppt</a>
+                    <a href="https://drive.google.com/file/d/1YIvdYp78byZomewLop-tBXy5olrUv6jW/view?usp=sharing">ppt</a>
                   </div>
                 </div>
               </div>
@@ -103,7 +115,7 @@ function Project() {
                   <span className={styles.dropbtn}>- 딥러닝을 활용한 시스템 개발 프로젝트</span>
                   <div className={styles.dropdownContent}>
                     <a href="https://github.com/mintchocoicecream/AnoGAN-.git">github</a>
-                    <a href="#">ppx</a>
+                    <a href="https://drive.google.com/file/d/1cGhJvBldiP4HsT5CWcmAA8b76EMv564m/view?usp=sharing">ppx</a>
                   </div>
                 </div> 
               </div>
