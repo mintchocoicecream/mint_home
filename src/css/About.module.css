@@ -55,3 +55,92 @@ text-decoration: underline;
 .content li::before{
   width: 5px;
 }
+
+.contactForm{
+  width: 80%;
+  padding: 2rem;
+}
+
+.contactForm div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label{
+  margin-left: 0.5rem;
+}
+
+input{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size:medium;
+  border: 2px solid rgba(0, 0, 0, 0.507);
+  border-radius: 3px;
+  margin: 0.5rem;
+  -webkit-transition: 0.2s;
+  box-shadow: 2px 2px 2px rgba(119, 119, 119, 0.493);
+}
+
+input[type=email]:focus {
+  border: 2px solid #20c997;
+  outline: none;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size:medium;
+  border: 2px solid rgba(0, 0, 0, 0.507);
+  border-radius: 3px;
+  margin: 0.5rem;
+  -webkit-transition: 0.2s;
+  box-shadow: 2px 2px 2px rgba(119, 119, 119, 0.493);
+}
+
+input[type=text]:focus {
+  border: 2px solid #20c997;
+  outline: none;
+}
+
+textarea{
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  border: 2px solid rgba(0, 0, 0, 0.507);
+  border-radius: 3px;
+  margin: 0.5rem;
+  -webkit-transition: 0.2s;
+  box-shadow: 2px 2px 2px rgba(119, 119, 119, 0.493);
+}
+
+textarea:focus{
+  border: 2px solid #20c997;
+  outline: none;
+}
+
+button{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight:600;
+  border: 2px solid #20c99642;
+  background-color: rgb(242, 255, 250);
+  float: right;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 3px 3px rgba(119, 119, 119, 0.493);
+}
+
+button:hover{
+  color: rgb(255, 255, 255);
+  background-color: #20c99642;
+  border: 2px solid #20c99642;
+  box-shadow: 2px 3px 3px #20c99642;
+}
