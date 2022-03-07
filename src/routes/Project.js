@@ -16,7 +16,7 @@ function Project() {
   }, [])
 
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <div id={styles.title}>
         <h2>Project</h2>
       </div>
@@ -124,7 +124,7 @@ function Project() {
         </div>
       </div>
         
-    </div>
+    </main>
     );
 }
 

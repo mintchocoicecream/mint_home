@@ -18,7 +18,7 @@ function Home() {
 
 
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <div className={styles.content}>
         <div className={styles.griditem}>
           <Link to="/Project">Project</Link>
@@ -35,7 +35,7 @@ function Home() {
       </div>
 
         
-    </div>
+    </main>
     );
 }
 

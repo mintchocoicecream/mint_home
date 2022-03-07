@@ -1,84 +1,83 @@
 .container {
-    display: grid;
-    margin: 0 auto;
-    margin-bottom: 8rem;
-    max-width: 1080px;
-    /* border: 3px solid #20c997; */
-    border-radius: 10px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    justify-items: center;
-    background-color: #f5f5f560;
-    box-shadow: 2px 3px 3px rgba(119, 119, 119, 0.493);
+  display: grid;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+  max-width: 1080px;
+  /* border: 3px solid #20c997; */
+  border-radius: 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-items: center;
+  background-color: #f5f5f560;
+  box-shadow: 2px 3px 3px rgba(119, 119, 119, 0.493);
 }
 
 #title {
-    margin-bottom: 1.5rem;
-  }
-  
+  margin-bottom: 1.5rem;
+}
+
 #title h2 {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 #info {
   background-color: rgb(248, 245, 241);
   width: 90%;
   border-radius: 10px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .content {
-    display: flex;
-    border: 2px solid rgba(0, 0, 0, 0.424);
-    border-radius: 10px;
-    box-shadow: 2px 3px 10px rgba(119, 119, 119, 0.493);
-    background-color: rgba(255, 255, 255, 0.356);
-    margin: 3rem auto;
-    padding: 1rem;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  border: 2px solid rgba(0, 0, 0, 0.424);
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px rgba(119, 119, 119, 0.493);
+  background-color: rgba(255, 255, 255, 0.356);
+  margin: 3rem auto;
+  padding: 1rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
 }
 
 .content h3 {
-    width: fit-content;
-    font-size: 20px;
-    text-align: center;
+  width: fit-content;
+  font-size: 20px;
+  text-align: center;
 }
 
-
-.content ul{
+.content ul {
   list-style-image: url("./img/leaf01.png");
 }
 
-.content li::before{
+.content li::before {
   width: 5px;
 }
 
-.contactForm{
+.contactForm {
   width: 80%;
   padding: 2rem;
 }
 
-.contactForm div{
+.contactForm div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-label{
+label {
   margin-left: 0.5rem;
 }
 
-input{
-  font-family: 'Noto Sans KR', sans-serif;
+input {
+  font-family: "Noto Sans KR", sans-serif;
 }
 
-input[type=email] {
+input[type="email"] {
   width: 100%;
   padding: 0.5rem;
-  font-size:medium;
+  font-size: medium;
   border: 2px solid rgba(0, 0, 0, 0.507);
   border-radius: 3px;
   margin: 0.5rem;
@@ -86,15 +85,15 @@ input[type=email] {
   box-shadow: 2px 2px 2px rgba(119, 119, 119, 0.493);
 }
 
-input[type=email]:focus {
+input[type="email"]:focus {
   border: 2px solid #20c997;
   outline: none;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 100%;
   padding: 0.5rem;
-  font-size:medium;
+  font-size: medium;
   border: 2px solid rgba(0, 0, 0, 0.507);
   border-radius: 3px;
   margin: 0.5rem;
@@ -102,16 +101,27 @@ input[type=text] {
   box-shadow: 2px 2px 2px rgba(119, 119, 119, 0.493);
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   border: 2px solid #20c997;
   outline: none;
 }
 
-textarea{
+input[type="file"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: medium;
+  border: 2px solid rgba(0, 0, 0, 0.507);
+  border-radius: 3px;
+  margin: 0.5rem;
+  -webkit-transition: 0.2s;
+  box-shadow: 2px 2px 2px rgba(119, 119, 119, 0.493);
+}
+
+textarea {
   width: 100%;
   padding: 0.5rem;
   font-size: 15px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   border: 2px solid rgba(0, 0, 0, 0.507);
   border-radius: 3px;
   margin: 0.5rem;
@@ -119,14 +129,14 @@ textarea{
   box-shadow: 2px 2px 2px rgba(119, 119, 119, 0.493);
 }
 
-textarea:focus{
+textarea:focus {
   border: 2px solid #20c997;
   outline: none;
 }
 
-button{
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight:600;
+#submit {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 600;
   border: 2px solid #20c99642;
   background-color: rgb(242, 255, 250);
   float: right;
@@ -138,7 +148,7 @@ button{
   box-shadow: 2px 3px 3px rgba(119, 119, 119, 0.493);
 }
 
-button:hover{
+#submit:hover {
   color: rgb(255, 255, 255);
   background-color: #20c99642;
   border: 2px solid #20c99642;

@@ -16,7 +16,7 @@ function Board() {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
             <div id={styles.title}>
         <h2>Board</h2>
       </div>
@@ -25,7 +25,7 @@ function Board() {
           <h3>페이지 작업 중...</h3>
         </div>
       </div>    
-    </div>
+    </main>
       );
 }
 

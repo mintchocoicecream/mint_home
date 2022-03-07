@@ -16,7 +16,7 @@ function Profile() {
   }, []);
   
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <div id={styles.title}>
         <h2>Profile</h2>
       </div>
@@ -38,7 +38,7 @@ function Profile() {
         </div>
       </div>
         
-    </div>
+    </main>
       );
 }
 
