@@ -24,10 +24,32 @@ function Project() {
         <div className={styles.content} id="2022">
           <h3>2022</h3>
           <ul>
+            <li>2022.03.04 ~ 2022.04.01
+              <div className={styles.dropstyle}>
+                <div className={styles.dropdown}>
+                    <span className={styles.dropbtn}>- Twitter clone</span>
+                    <div className={styles.dropdownContent}>
+                      <a href="https://github.com/mintchocoicecream/mintwitter">github</a>
+                      <a href="https://mintchocoicecream.github.io/mintwitter">web</a>
+                    </div>
+                  </div>
+              </div>
+            </li>
+            <li>2022.03.11 ~ 2022.03.28
+              <div className={styles.dropstyle}>
+                <div className={styles.dropdown}>
+                    <span className={styles.dropbtn}>- KakaoTalk clone</span>
+                    <div className={styles.dropdownContent}>
+                      <a href="https://github.com/mintchocoicecream/chat-clone">github</a>
+                      <a href="https://mintchocoicecream.github.io/chat-clone">web</a>
+                    </div>
+                  </div>
+              </div>
+            </li>
             <li>2022.02.14 ~ 2022.02.21
             <div className={styles.dropstyle}>
               <div className={styles.dropdown}>
-                  <span className={styles.dropbtn}>- zoom clone</span>
+                  <span className={styles.dropbtn}>- Zoom clone</span>
                   <div className={styles.dropdownContent}>
                     <a href="https://github.com/mintchocoicecream/zoom-clone.git">github</a>
                     <a href="https://9gr9qe.sse.codesandbox.io/">web</a>
