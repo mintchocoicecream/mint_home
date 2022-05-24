@@ -6,7 +6,7 @@ function Header() {
     return (
         <header className={styles.header}>
         <div>
-        <Link to="/" className={styles.link}>MintchocoIcecream</Link>
+            <Link to="/" className={styles.link}>MintchocoIcecream</Link>
         </div>
         </header>
     )
