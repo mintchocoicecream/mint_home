@@ -69,7 +69,7 @@ function Project() {
             </div>
 
             </li>
-            <li>2022.02.07 ~ 2022.02.13
+            {/* <li>2022.02.07 ~ 2022.02.13
             <div className={styles.dropstyle}>
               <div className={styles.dropdown}>
                   <span className={styles.dropbtn}>- React Native Weather & Todolist 만들기</span>
@@ -79,14 +79,14 @@ function Project() {
                   </div>
               </div>
             </div>
-            </li>
+            </li> */}
             <li>2022.01.24 ~ 2022.02.08
             <div className={styles.dropstyle}>
               <div className={styles.dropdown}>
                   <span className={styles.dropbtn}>- React Movie App</span>
                   <div className={styles.dropdownContent}>
                     <a href="https://github.com/mintchocoicecream/ReactMovieApp.git">github</a>
-                    <a href="#">web</a>
+                    <a href="https://mintchocoicecream.github.io/ReactMovieApp/">web</a>
                   </div>
                 </div>
               </div>
@@ -113,7 +113,7 @@ function Project() {
                 <div className={styles.dropdown}>
                   <span className={styles.dropbtn}>- 실시간 인공지능 IP카메라 NVR 프로그램 개발</span>
                   <div className={styles.dropdownContent}>
-                    <a href="#">ppt</a>
+                    <a href="https://drive.google.com/file/d/1DnFW1Fmng9-gqWjCH63zXi-6P4HYsvnm/view?usp=sharing">ppt</a>
                   </div>
                 </div>
               </div>
@@ -148,7 +148,7 @@ function Project() {
                   <span className={styles.dropbtn}>- 딥러닝을 활용한 시스템 개발 프로젝트</span>
                   <div className={styles.dropdownContent}>
                     <a href="https://github.com/mintchocoicecream/AnoGAN-.git">github</a>
-                    <a href="https://drive.google.com/file/d/1cGhJvBldiP4HsT5CWcmAA8b76EMv564m/view?usp=sharing">ppx</a>
+                    <a href="https://drive.google.com/file/d/1cGhJvBldiP4HsT5CWcmAA8b76EMv564m/view?usp=sharing">ppt</a>
                   </div>
                 </div> 
               </div>
