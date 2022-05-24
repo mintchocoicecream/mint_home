@@ -27,6 +27,17 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .content {
   display: flex;
   border: 2px solid rgba(0, 0, 0, 0.424);
@@ -39,6 +50,7 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
+  animation: show 1s ease-in-out;
 }
 
 .content h3 {

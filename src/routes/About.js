@@ -22,7 +22,7 @@ function Profile() {
       </div>
       <div id={styles.info}>
         <div className={styles.content}>
-          <h3>서현정 Seo Hyunjeong</h3>
+          <h3>서현정 (Seo Hyunjeong)</h3>
           <h3>skill</h3>
           <ul>
             <li>Python, Javascript, React, Html, CSS, Oracle</li>

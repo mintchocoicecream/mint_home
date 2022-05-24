@@ -24,6 +24,17 @@ function Project() {
         <div className={styles.content} id="2022">
           <h3>2022</h3>
           <ul>
+            <li>2022.05.03 ~ 2022.05.21
+              <div className={styles.dropstyle}>
+                <div className={styles.dropdown}>
+                    <span className={styles.dropbtn}>- Doodling</span>
+                    <div className={styles.dropdownContent}>
+                      <a href="https://github.com/mintchocoicecream/paintingJS">github</a>
+                      <a href="https://mintchocoicecream.github.io/paintingJS/">web</a>
+                    </div>
+                  </div>
+              </div>
+            </li>
             <li>2022.03.04 ~ 2022.04.01
               <div className={styles.dropstyle}>
                 <div className={styles.dropdown}>

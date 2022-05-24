@@ -54,6 +54,17 @@
   border-radius: 10px;
 }
 
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
 .content {
   display: grid;
   grid-column-gap: 20px;
@@ -67,6 +78,7 @@
   justify-content: start;
   padding: 1rem;
   align-items: baseline;
+  animation: show 1s ease-in-out;
 }
 
 .content h3 {
