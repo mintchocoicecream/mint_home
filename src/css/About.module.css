@@ -40,31 +40,62 @@
 
 .content {
   display: flex;
+  flex-wrap: wrap;
   border: 2px solid rgba(0, 0, 0, 0.424);
   border-radius: 10px;
   box-shadow: 2px 3px 10px rgba(119, 119, 119, 0.493);
   background-color: rgba(255, 255, 255, 0.356);
   margin: 3rem auto;
   padding: 1rem;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: space-around;
   list-style: none;
   animation: show 1s ease-in-out;
 }
 
-.content h3 {
-  width: fit-content;
-  font-size: 20px;
+.contentPart{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
   text-align: center;
 }
 
-.content ul {
+.contentPart:nth-child(2){
+  border-left: 2px dashed rgba(77, 77, 77, 0.6);
+}
+
+.profile{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-image: url("../css/img/profile.jpg");
+  background-size: 100% 100%;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 2px 3px 5px rgba(91, 91, 91, 0.493);
+}
+
+.contentPart h3 {
+  width: fit-content;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom:0;
+}
+
+.contentPart ul {
   list-style-image: url("./img/leaf01.png");
 }
 
-.content li::before {
+.contentPart li::before {
   width: 5px;
+}
+
+.contentPart p{
+  background-color: #d8d8d860;
+  border-radius: 10px;
+  padding: 10px 30px;
+  width: 80%;
 }
 
 .contactForm {

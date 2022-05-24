@@ -22,19 +22,35 @@ function Profile() {
       </div>
       <div id={styles.info}>
         <div className={styles.content}>
-          <h3>서현정 (Seo Hyunjeong)</h3>
-          <h3>skill</h3>
-          <ul>
-            <li>Python, Javascript, React, Html, CSS, Oracle</li>
-          </ul>
-          <h3>좋아하는 것</h3>
-          <ul>
-            <li>여행, 독서, 사진</li>
-          </ul>
-          <h3>Contact</h3>
-          <ul>
-            <li>sxxhnjng@gmail.com</li>
-          </ul>
+          <div className={styles.contentPart}>
+            <div className={styles.profile}></div>
+            <p>
+              자기 소개란<br/>
+              가나다라마바사아자차카타파하아야어여오요우유으이
+              가갸거겨고교구규그기나냐너녀노뇨누뉴느니
+              다댜더뎌도됴두듀드디라랴러려로료루류르리
+              마먀머며모묘무뮤므미가나다라마바사아자차카타파
+              자기소개 여기까지 쓰기!
+            </p>
+          </div>
+          <div className={styles.contentPart}>
+            <h3>Name</h3>
+            <ul>
+              <li>서현정 (Hyunjeong Seo)</li>
+            </ul>
+            <h3>Skill</h3>
+            <ul>
+              <li>Python, Javascript, React, CSS, Oracle</li>
+            </ul>
+            <h3>Favorites</h3>
+            <ul>
+              <li>여행, 레고조립, 필름사진, 독서</li>
+            </ul>
+            <h3>Contact</h3>
+            <ul>
+              <li>myminticecreamisthebest @ gmail.com</li>
+            </ul>
+          </div>
         </div>
       </div>
         
