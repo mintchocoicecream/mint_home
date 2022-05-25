@@ -25,12 +25,11 @@ function Profile() {
           <div className={styles.contentPart}>
             <div className={styles.profile}></div>
             <p>
-              자기 소개란<br/>
-              가나다라마바사아자차카타파하아야어여오요우유으이
-              가갸거겨고교구규그기나냐너녀노뇨누뉴느니
-              다댜더뎌도됴두듀드디라랴러려로료루류르리
-              마먀머며모묘무뮤므미가나다라마바사아자차카타파
-              자기소개 여기까지 쓰기!
+              나는 그 텅 빈 방을 우리가 언제나 계획하고 꿈꿔왔던 실험실과
+              비교하지 않고, 그 자체로 받아들이고, 열심히 노력하면 얼마든지 바꿀 수 있는 가능성을 본 빌의 눈에 감탄했다.
+              과거의 꿈과 현재의 현실 사이에 커다란 격차가 있었지만 그는 우리의 새 삶을 사랑할 준비가 되어 있었다.
+              나도 그 삶을 사랑하기 위해 노력해보겠다고 결심했다.<br/>
+              - Lab Girl 中, Hope Jahren
             </p>
           </div>
           <div className={styles.contentPart}>
@@ -38,9 +37,9 @@ function Profile() {
             <ul>
               <li>서현정 (Hyunjeong Seo)</li>
             </ul>
-            <h3>Skill</h3>
+            <h3>Skills</h3>
             <ul>
-              <li>Python, Javascript, React, CSS, Oracle</li>
+              <li>Python, Javascript, React, CSS3, Oracle</li>
             </ul>
             <h3>Favorites</h3>
             <ul>
