@@ -103,7 +103,7 @@ function Project() {
                 <div className={styles.dropdownContent}>
                   <span>VanillaJS를 활용한 크롬앱 만들기</span>
                   <a href="https://github.com/mintchocoicecream/mintchocoicecream.github.io.git">github</a>
-                  <a href="#">web</a>
+                  <a href="https://mintchocoicecream.github.io/chromeApp/">web</a>
                 </div>
               </div>
             </div>
