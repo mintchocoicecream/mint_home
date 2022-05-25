@@ -13,6 +13,7 @@
   --color-table: #118bee;
   --color-text: #000;
   --color-text-secondary: #999;
+  --color-font: rgb(68, 68, 68);
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --hover-brightness: 1.2;
   --justify-important: center;
@@ -97,11 +98,11 @@
   color: rgba(0, 0, 0, 0.692);
 }
 
-.content span {
+.content .dropbtn {
   cursor: pointer;
 }
 
-.content span:hover  {
+.content .dropbtn:hover  {
   color: #8f8f8fd3;
 }
 
@@ -124,6 +125,15 @@
   display: block;
 }
 
+@keyframes showDrops {
+  0%{
+    transform: translateY(-5px);
+    opacity: 0;
+  }
+  100%{
+  }
+}
+
 .dropdownContent {
   display: none;
   position: absolute;
@@ -131,15 +141,32 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  animation: showDrops .8s ease-in-out;
 }
+
+.dropdownContent span,
 .dropdownContent a{
   width: fit-content;
   display: block;
   padding: 0.5rem 1rem;
-  color:rgb(68, 68, 68);
+  color: var(--color-font);
   font-size: 17px;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.dropdownContent span {
+  font-size: 14px;
+  background-color: #56565660;
+  color: white;
+  margin: 2px 5px;
+  padding: 2px 5px;
+  border-radius: 8px;
+  cursor:default;
+}
+
+.dropdownContent a{
+  width: 100%;
 }
 
 .dropdownContent a:hover {
@@ -155,11 +182,11 @@
   color: #8f8f8fd3;
 }
 
-.content p{
+/* .content p{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 19px;
-}
+} */
 
 
 .content span {

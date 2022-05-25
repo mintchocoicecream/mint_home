@@ -29,6 +29,7 @@ function Project() {
                 <div className={styles.dropdown}>
                     <span className={styles.dropbtn}>- Doodling</span>
                     <div className={styles.dropdownContent}>
+                      <span>VanillaJS를 이용한 그림판 만들기</span>
                       <a href="https://github.com/mintchocoicecream/paintingJS">github</a>
                       <a href="https://mintchocoicecream.github.io/paintingJS/">web</a>
                     </div>
@@ -40,6 +41,7 @@ function Project() {
                 <div className={styles.dropdown}>
                     <span className={styles.dropbtn}>- Twitter clone</span>
                     <div className={styles.dropdownContent}>
+                      <span>React & Firebase를 활용한 웹 서비스 만들기</span>
                       <a href="https://github.com/mintchocoicecream/mintwitter">github</a>
                       <a href="https://mintchocoicecream.github.io/mintwitter">web</a>
                     </div>
@@ -51,6 +53,7 @@ function Project() {
                 <div className={styles.dropdown}>
                     <span className={styles.dropbtn}>- KakaoTalk clone</span>
                     <div className={styles.dropdownContent}>
+                      <span>HTML, CSS, JavaScript 활용 반응형 웹 구현</span>
                       <a href="https://github.com/mintchocoicecream/chat-clone">github</a>
                       <a href="https://mintchocoicecream.github.io/chat-clone">web</a>
                     </div>
@@ -62,6 +65,7 @@ function Project() {
               <div className={styles.dropdown}>
                   <span className={styles.dropbtn}>- Zoom clone</span>
                   <div className={styles.dropdownContent}>
+                    <span>SocketIO, WebRTC를 이용한 화상 채팅 웹 서비스 만들기</span>
                     <a href="https://github.com/mintchocoicecream/zoom-clone.git">github</a>
                     <a href="https://9gr9qe.sse.codesandbox.io/">web</a>
                   </div>
@@ -85,6 +89,7 @@ function Project() {
               <div className={styles.dropdown}>
                   <span className={styles.dropbtn}>- React Movie App</span>
                   <div className={styles.dropdownContent}>
+                    <span>API, ReactJS를 활용하여 영화 정보 웹 서비스 구현하기</span>
                     <a href="https://github.com/mintchocoicecream/ReactMovieApp.git">github</a>
                     <a href="https://mintchocoicecream.github.io/ReactMovieApp/">web</a>
                   </div>
@@ -96,6 +101,7 @@ function Project() {
               <div className={styles.dropdown}>
                 <span className={styles.dropbtn}>- VanillaJS Chrome App Challenge</span>
                 <div className={styles.dropdownContent}>
+                  <span>VanillaJS를 활용한 크롬앱 만들기</span>
                   <a href="https://github.com/mintchocoicecream/mintchocoicecream.github.io.git">github</a>
                   <a href="#">web</a>
                 </div>
@@ -113,6 +119,7 @@ function Project() {
                 <div className={styles.dropdown}>
                   <span className={styles.dropbtn}>- 실시간 인공지능 IP카메라 NVR 프로그램 개발</span>
                   <div className={styles.dropdownContent}>
+                    <span>PoseEstimation을 적용한 실시간 카메라 NVR 프로그램 개발</span>
                     <a href="https://drive.google.com/file/d/1DnFW1Fmng9-gqWjCH63zXi-6P4HYsvnm/view?usp=sharing">ppt</a>
                   </div>
                 </div>
