@@ -18,6 +18,7 @@ function Contact() {
 
   const inputs = document.getElementsByTagName("input");
   const messages = document.getElementById("content");
+  const successM = document.getElementById("success");
   const inputLi = []
   inputLi.push(inputs[1], inputs[2], inputs[3], messages);
 
@@ -28,6 +29,7 @@ function Contact() {
       .then((result) => {
         // console.log(result.text);
         inputLi.forEach(letter => letter.value = "");
+        successM.style.display = "flex";
       }, (error) => {
         console.log(error.text);
       });
@@ -51,12 +53,15 @@ function Contact() {
               <label for="name">보내는 분 성함 (Name)</label>
               <input id="name" type="text" name="name" placeholder="my name is..." />
               <label for="title">제목 (Title)</label>
-              <input id="title" type="text" name="title" placeholder="Hello:)" required></input>
+              <input id="title" type="text" name="title" placeholder="hello:)" required></input>
               <label for="content">내용 (Write)</label>
               <textarea id="content" name="message" placeholder="내용(1,000자 제한)" rows="10" minLength="10" maxLength="1000" required></textarea>
             </div>
             <input id={styles.submit} type="submit" value="보내기"/>
           </form>
+          <div id="success" className={styles.success}>
+            <span>메일이 성공적으로 발송되었습니다😊</span>
+          </div>
         </div>
       </div>  
     </main>

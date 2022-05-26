@@ -208,3 +208,21 @@ textarea:focus {
   border: 2px solid #20c99642;
   box-shadow: 2px 3px 3px #20c99642;
 }
+
+@keyframes showSuccess {
+  0%{
+    transform: translateY(-10px);
+    opacity: 0.1;
+  }
+  100%{
+    opacity:1
+  }
+}
+
+.success{
+  display: none;
+  background-color: rgb(242, 255, 250);
+  border-radius: 5px;
+  padding: 2px 10px;
+  animation: showSuccess 1s ease-in-out forwards;
+}
