@@ -75,8 +75,19 @@
   }
 }
 
+@keyframes showProfile{
+  0%{
+    opacity: 0;
+    transform: rotateZ(0deg);
+  }
+  100%{
+    opacity: 1;
+    transform: rotateZ(360deg);
+  }
+}
 
 .profile{
+  opacity: 0;
   margin-top: 10px;
   margin-bottom: 15px;
   background-image: url("../css/img/profile.jpg");
@@ -85,6 +96,8 @@
   width: 200px;
   border-radius: 50%;
   box-shadow: 2px 3px 5px rgba(91, 91, 91, 0.493);
+  animation: showProfile 2s ease-in-out both;
+  animation-delay: .3s;
 }
 
 .contentPart h3 {
@@ -200,6 +213,7 @@ textarea:focus {
   cursor: pointer;
   outline: none;
   box-shadow: 2px 3px 3px rgba(119, 119, 119, 0.493);
+  transition: all .3s;
 }
 
 #submit:hover {

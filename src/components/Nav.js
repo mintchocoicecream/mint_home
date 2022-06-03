@@ -3,6 +3,32 @@ import {Link} from "react-router-dom";
 import styles from "../css/Header.module.css";
 
 function Navigation() {
+    // const [activated, setActivated] = useState("");
+
+    // useEffect(() => {
+    //     const pages = document.location.href.split("/");
+    //     let current = pages[3];
+    //     if(current === ""){
+    //         setActivated(current);
+    //     }else if(current === "Project"){
+    //         setActivated(current);
+    //     }else if(current === "Board"){
+    //         setActivated(current);
+    //     }else if(current === "Profile"){
+    //         setActivated(current);
+    //     }else if(current === "Contact"){
+    //         setActivated(current);
+    //     }
+    // }, []);
+
+    // const onHome = () => {
+    //     setActivated("");
+    // }
+
+    // const onProject = () => {
+    //     setActivated("Project");
+    // }
+
     return (
         <nav className={styles.navbar} id="navbar">
             <div className={styles.containerFluid}>

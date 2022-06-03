@@ -22,7 +22,7 @@ function Board() {
       </div>
       <div id={styles.info}>
         <div className={styles.content}>
-          <h3>페이지 작업 중...</h3>
+          <h3>페이지 작업 중...🛠</h3>
         </div>
       </div>    
     </main>
