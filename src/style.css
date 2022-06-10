@@ -1,3 +1,8 @@
+@import "css/About.module.css";
+@import "css/Header.module.css";
+@import "css/Home.module.css";
+@import "css/Project.module.css";
+
 * {
     box-sizing: border-box;
   }
