@@ -1,29 +1,16 @@
 import React from "react";
-import styles from "../css/About.module.css";
 
 function Profile() {
-  React.useEffect(() => {
-    const navHome = document.getElementById("home");
-    const navProj = document.getElementById("project");
-    const navBoard = document.getElementById("board");
-    const navProf = document.getElementById("profile");
-    const navCont = document.getElementById("contact");
-    navProj.style.color = "#5a5a5a";
-    navBoard.style.color = "#5a5a5a";
-    navProf.style.color = "#20c997";
-    navCont.style.color = "#5a5a5a";
-    navHome.style.color = "#5a5a5a";
-  }, []);
   
   return (
-    <main className={styles.container}>
-      <div id={styles.title}>
+    <main className="container">
+      <div className="title">
         <h2>Profile</h2>
       </div>
-      <div id={styles.info}>
-        <div className={styles.content}>
-          <div className={styles.contentPart}>
-            <div className={styles.profile}></div>
+      <div className="info">
+        <div className="profile_content">
+          <div className="contentPart">
+            <div className="profile"></div>
             <p>
               나는 그 텅 빈 방을 우리가 언제나 계획하고 꿈꿔왔던 실험실과
               비교하지 않고, 그 자체로 받아들이고, 열심히 노력하면 얼마든지 바꿀 수 있는 가능성을 본 빌의 눈에 감탄했다.
@@ -32,7 +19,7 @@ function Profile() {
               - Lab Girl 中, Hope Jahren
             </p>
           </div>
-          <div className={styles.contentPart}>
+          <div className="contentPart">
             <h3>Name</h3>
             <ul>
               <li>서현정 (Hyunjeong Seo)</li>

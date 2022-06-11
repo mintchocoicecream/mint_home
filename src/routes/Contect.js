@@ -1,20 +1,7 @@
 import React from "react";
 import emailjs from '@emailjs/browser';
-import styles from "../css/About.module.css";
 
 function Contact() {
-  React.useEffect(() => {
-    const navHome = document.getElementById("home");
-    const navProj = document.getElementById("project");
-    const navBoard = document.getElementById("board");
-    const navProf = document.getElementById("profile");
-    const navCont = document.getElementById("contact");
-    navProj.style.color = "#5a5a5a";
-    navBoard.style.color = "#5a5a5a";
-    navProf.style.color = "#5a5a5a";
-    navCont.style.color = "#20c997";
-    navHome.style.color = "#5a5a5a";
-  }, []);
 
   const inputs = document.getElementsByTagName("input");
   const messages = document.getElementById("content");
@@ -36,20 +23,20 @@ function Contact() {
   };
 
   return (
-    <main className={styles.container}>
-            <div id={styles.title}>
+    <main className="container">
+            <div id="title">
         <h2>Contact</h2>
       </div> 
-      <div id={styles.info}>
-        <div className={styles.content}>
-          <form className={styles.contactForm} onSubmit={SendEmail}>
-            <div className={styles.email}>
+      <div className="info">
+        <div className="profile_content">
+          <form className="contactForm" onSubmit={SendEmail}>
+            <div className="email">
               <label>받는 사람 이메일 (To)</label>
               <input type="email" value="myminticecreamisthebest@gmail.com" disabled/>
               <label for="email">보내는 사람 이메일 (From) </label>
               <input id="email" type="email" name="email" placeholder="example@email.com" required/>
             </div>
-            <div className={styles.msg}>
+            <div className="msg">
               <label for="name">보내는 분 성함 (Name)</label>
               <input id="name" type="text" name="name" placeholder="my name is..." />
               <label for="title">제목 (Title)</label>
@@ -57,9 +44,9 @@ function Contact() {
               <label for="content">내용 (Write)</label>
               <textarea id="content" name="message" placeholder="내용(1,000자 제한)" rows="10" minLength="10" maxLength="1000" required></textarea>
             </div>
-            <input id={styles.submit} type="submit" value="보내기"/>
+            <input id="submit" type="submit" value="보내기"/>
           </form>
-          <div id="success" className={styles.success}>
+          <div id="success" className="success">
             <span>메일이 성공적으로 발송되었습니다😊</span>
           </div>
         </div>
