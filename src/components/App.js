@@ -6,6 +6,7 @@ import Contact from "../routes/Contect";
 import Header from "./Header";
 import Navigation from "./Nav";
 import Home from "../routes/Home";
+import Start from "../routes/Start";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   <Router>
       <Switch>
         <Route exact path="/">
+          <Start />
           <Navigation />
           <Header />
           <Home />
