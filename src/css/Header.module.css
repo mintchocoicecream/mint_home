@@ -114,7 +114,8 @@ transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-
 margin: 80px auto 30px auto;
 max-width: 1080px;
 text-align: center;
-display: block;
+justify-content: center;
+display: flex;
 }
 
 @keyframes showHeader{
@@ -141,6 +142,7 @@ border-radius: 10px;
 opacity: 0;
 animation: showHeader 1.5s ease-in-out forwards;
 }
+
 
 @keyframes showTitle {
     0%{
@@ -176,3 +178,9 @@ animation-delay: 1s;
 header .link:hover{
 color: #ffffffb9;
 }
+
+@media (max-width: 800px) {
+    .header div {
+        width: 95%;
+    }
+  }
