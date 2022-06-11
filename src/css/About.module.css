@@ -115,11 +115,24 @@
   width: 5px;
 }
 
-.contentPart p{
+.profile_write{
   background-color: #d8d8d860;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
   border-radius: 10px;
   padding: 10px 30px;
   width: 80%;
+  margin-bottom: 4%;
+}
+
+.profile_write p{
+  text-align: left;
+}
+
+.profile_write span{
+  width: 100%;
+  text-align: end;
 }
 
 .contactForm {

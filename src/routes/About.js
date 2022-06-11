@@ -11,13 +11,16 @@ function Profile() {
         <div className="profile_content">
           <div className="contentPart">
             <div className="profile"></div>
-            <p>
-              나는 그 텅 빈 방을 우리가 언제나 계획하고 꿈꿔왔던 실험실과
-              비교하지 않고, 그 자체로 받아들이고, 열심히 노력하면 얼마든지 바꿀 수 있는 가능성을 본 빌의 눈에 감탄했다.
-              과거의 꿈과 현재의 현실 사이에 커다란 격차가 있었지만 그는 우리의 새 삶을 사랑할 준비가 되어 있었다.
-              나도 그 삶을 사랑하기 위해 노력해보겠다고 결심했다.<br/>
-              - Lab Girl 中, Hope Jahren
-            </p>
+            <div className="profile_write">
+              <p>
+                나는 그 텅 빈 방을 우리가 언제나 계획하고 꿈꿔왔던 실험실과
+                비교하지 않고, 그 자체로 받아들이고, 열심히 노력하면 얼마든지 바꿀 수 있는 가능성을 본 빌의 눈에 감탄했다.
+                과거의 꿈과 현재의 현실 사이에 커다란 격차가 있었지만 그는 우리의 새 삶을 사랑할 준비가 되어 있었다.
+                나도 그 삶을 사랑하기 위해 노력해보겠다고 결심했다.
+              </p>
+              <span>- Lab Girl 中, Hope Jahren</span>
+            </div>
+            
           </div>
           <div className="contentPart">
             <h3>Name</h3>
