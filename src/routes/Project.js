@@ -121,7 +121,7 @@ function Project() {
               <p>2020 혁신성장 청년인재 양성 교육 과정 수료</p>
               <div className="dropstyle">
                 <div className="dropdown">
-                  <span className="dropbtn">- SpringFramework을 이용한 웹 서비스 개발 프로젝트</span>
+                  <span className="dropbtn">- SpringFramework을 이용한 웹 서비스 개발 팀프로젝트</span>
                   <div className="dropdownContent">
                     <a href="https://github.com/mintchocoicecream/SOULMOVIE.git">github</a>
                     <a href="https://drive.google.com/file/d/172TDUcDLfQ7XBLwc3t12CFtuXJ5UKhUB/view?usp=sharing">ppt</a>
@@ -130,7 +130,7 @@ function Project() {
               </div>
               <div className="dropstyle">
                 <div className="dropdown">
-                  <span className="dropbtn">- Python을 활용한 데이터 분석 프로젝트</span>
+                  <span className="dropbtn">- Python을 활용한 데이터 분석 팀프로젝트</span>
                   <div className="dropdownContent">
                     <a href="https://github.com/mintchocoicecream/2020KBO.git">github</a>
                     <a href="https://drive.google.com/file/d/1YIvdYp78byZomewLop-tBXy5olrUv6jW/view?usp=sharing">ppt</a>
@@ -139,7 +139,7 @@ function Project() {
               </div>
               <div className="dropstyle">
                 <div className="dropdown">
-                  <span className="dropbtn">- 딥러닝을 활용한 시스템 개발 프로젝트</span>
+                  <span className="dropbtn">- 딥러닝을 활용한 시스템 개발 팀프로젝트</span>
                   <div className="dropdownContent">
                     <a href="https://github.com/mintchocoicecream/AnoGAN-.git">github</a>
                     <a href="https://drive.google.com/file/d/1cGhJvBldiP4HsT5CWcmAA8b76EMv564m/view?usp=sharing">ppt</a>
