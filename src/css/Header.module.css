@@ -183,4 +183,7 @@ color: #ffffffb9;
     .header div {
         width: 95%;
     }
+    .link{
+        font-size: 30px;
+    }
   }
