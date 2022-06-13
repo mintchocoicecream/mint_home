@@ -9,14 +9,14 @@
     width: 100vw;
     position: absolute;
     opacity: 0;
-    animation: showStart 5s both;
+    animation: showStart 4s both;
   }
 
   @keyframes showStart {
     0%{
         opacity:1;
     }
-    50%{
+    70%{
         opacity:1;
     }
     100%{
