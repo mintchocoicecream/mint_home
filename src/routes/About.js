@@ -37,7 +37,7 @@ function Profile() {
             </ul>
             <h3>Contact</h3>
             <ul>
-              <li>myminticecreamisthebest @ gmail.com</li>
+              <li>myminticecreamisthebest@gmail.com</li>
             </ul>
           </div>
         </div>
