@@ -1,0 +1,56 @@
+footer {
+    font-family: Montserrat, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --bs-bg-opacity: 1;
+    background-color: rgb(248, 255, 252);
+    color: #5a5a5a77;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+  }
+  
+  .footerDiv{
+    width: 100%;
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footerDiv:first-child{
+    margin-left: 20px;
+  }
+
+  .github{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(115, 22, 162);
+    padding: 2px 8px;
+    text-decoration: none;
+  }
+  
+  footer h5{
+    text-align: center;
+  }
+  
+  .github span{
+    margin-left: 2%;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(115, 22, 162);
+  }
+
+  @media (max-width: 800px) {
+    .github{
+        border-radius: 25%;
+        padding: 5px 5px;
+    }
+    .github span {
+        display: none;
+    }
+  }

@@ -3,6 +3,11 @@
 @import "css/Home.module.css";
 @import "css/Project.module.css";
 @import "css/Start.module.css";
+@import "css/Footer.module.css";
+
+:root{
+  --mainMint : #20c997;
+}
 
 * {
     box-sizing: border-box;
