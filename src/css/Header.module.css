@@ -97,7 +97,7 @@ text-align: -webkit-match-parent;
 }
 
 .navItem a {
-/* color: #5a5a5a; */
+color: #5a5a5a;
 display: block;
 padding: 0.5rem 1rem;
 text-decoration: none;
