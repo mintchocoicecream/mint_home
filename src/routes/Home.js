@@ -11,10 +11,10 @@ function Home() {
           <Link to="/Project">Project</Link>
         </div>
         <div className="griditem">
-          <Link to="/Profile">Profile</Link>
+          <Link  to="/Board">Board</Link>
         </div>
         <div className="griditem">
-          <Link  to="/Board">Board</Link>
+          <Link to="/Profile">Profile</Link>
         </div>
         <div className="griditem">
           <Link to="/Contact">Contact</Link>
