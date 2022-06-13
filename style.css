@@ -12,46 +12,6 @@
 } */
 
 
-footer {
-  font-family: Montserrat, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --bs-bg-opacity: 1;
-  background-color: rgb(242, 255, 250);
-  color: #5a5a5a77;
-  
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  
-}
-
-.footerDiv{
-  width: 100%;
-  display: flex;
-  margin-right: 1rem;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footerDiv:first-child{
-  margin-left: 20px;
-}
-
-footer h5{
-  text-align: center;
-}
-
-.footerDiv a{
-  background-color: #20c997;
-  color: white;
-  border-radius: 10px;
-  padding: 3px 8px;
-  text-align: center;
-  text-decoration: none;
-}
-
 *,
 *::before,
 *::after {
