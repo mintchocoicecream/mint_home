@@ -181,10 +181,16 @@ color: #ffffffb9;
 }
 
 @media (max-width: 800px) {
-    .header div {
-        width: 95%;
-    }
     .link{
         font-size: 30px;
     }
   }
+
+@media (max-width: 1145px){
+    .header{
+        margin: 100px auto 30px auto;
+    }
+    .header div {
+        width: 95%;
+    }
+}
