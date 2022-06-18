@@ -108,11 +108,20 @@
 }
 
 .contentPart ul {
+  width: fit-content;
   list-style-image: url("./img/leaf01.png");
 }
 
 .contentPart li::before {
   width: 5px;
+}
+
+.links_link{
+  display: flex;
+}
+
+.links_link span{
+  margin-right: 3%;
 }
 
 .profile_write{
@@ -133,6 +142,28 @@
 .profile_write span{
   width: 100%;
   text-align: end;
+}
+
+.links a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.links a:hover {
+  opacity: .6;
+}
+
+.links_link a:first-child{
+  margin-right: 8%;
+}
+
+.notion{
+  background-image: url("../css/img/notion.png");
+  background-size: 100% 100%;
+  height: 18px;
+  width: 18px;
 }
 
 .contactForm {

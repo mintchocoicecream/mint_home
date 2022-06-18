@@ -7,7 +7,7 @@ import Header from "./Header";
 import Navigation from "./Nav";
 import Home from "../routes/Home";
 import Footer from "./Footer";
-import Start from "../routes/Start";
+// import Start from "../routes/Start";
 
 
 function App() {

@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Profile() {
   
@@ -34,6 +36,22 @@ function Profile() {
             <h3>Favorites</h3>
             <ul>
               <li>여행, 레고조립, 필름사진, 독서</li>
+            </ul>
+            <h3>Links</h3>
+            <ul className="links">
+              <li>
+                <div className="links_link">
+                  <a href="https://github.com/mintchocoicecream">
+                    <span>Github</span>
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                  <a href="https://solar-gram-d66.notion.site/Dev-133e8a6d037449aeb49f616cc9836f78">
+                    <span>Notion</span>
+                    <div className="notion"></div>
+                  </a>
+                </div>
+                
+              </li>
             </ul>
             <h3>Contact</h3>
             <ul>
