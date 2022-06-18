@@ -5,7 +5,7 @@ function Project() {
   return (
     <main className="container">
       <div className="title">
-        <h2>Project</h2>
+        <h2>Projects</h2>
       </div>
       <div className="resume">
         <div className="project_content" id="2022">

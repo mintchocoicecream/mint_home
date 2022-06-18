@@ -59,10 +59,10 @@ function Navigation() {
                         </li>
                         <li className="navItem" id="navItem">
                             {activated === "Project" ? (
-                                <Link id="project" to="/Project" onClick={onProject} style={{color: "#20c997"}}>Project
+                                <Link id="project" to="/Project" onClick={onProject} style={{color: "#20c997"}}>Projects
                                 </Link>
                             ) : (
-                                <Link id="project" to="/Project" onClick={onProject}>Project
+                                <Link id="project" to="/Project" onClick={onProject}>Projects
                                 </Link>
                             )}                            
                         </li>

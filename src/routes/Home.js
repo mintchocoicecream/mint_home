@@ -8,7 +8,7 @@ function Home() {
     <main className="container">
       <div className="content">
         <div className="griditem">
-          <Link to="/Project">Project</Link>
+          <Link to="/Project">Projects</Link>
         </div>
         <div className="griditem">
           <Link  to="/Board">Board</Link>
