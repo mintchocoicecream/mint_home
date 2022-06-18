@@ -15,7 +15,7 @@ function App() {
   <Router>
       <Switch>
         <Route exact path="/">
-          <Start />
+          {/* <Start /> */}
           <Navigation />
           <Header />
           <Home />
