@@ -31,17 +31,17 @@ function Contact() {
         <div className="profile_content">
           <form className="contactForm" onSubmit={SendEmail}>
             <div className="email">
-              <label>받는 사람 이메일 (To)</label>
-              <input type="email" value="myminticecreamisthebest@gmail.com" disabled/>
-              <label for="email">보내는 사람 이메일 (From) </label>
+              {/* <label>받는 사람 이메일 (To)</label>
+              <input type="email" value="myminticecreamisthebest@gmail.com" disabled/> */}
+              <label for="email">보내는 분 이메일</label>
               <input id="email" type="email" name="email" placeholder="example@email.com" required/>
             </div>
             <div className="msg">
-              <label for="name">보내는 분 성함 (Name)</label>
+              <label for="name">보내는 분 성함</label>
               <input id="name" type="text" name="name" placeholder="my name is..." />
-              <label for="title">제목 (Title)</label>
+              <label for="title">제목</label>
               <input id="title" type="text" name="title" placeholder="hello:)" required></input>
-              <label for="content">내용 (Write)</label>
+              <label for="content">내용</label>
               <textarea id="content" name="message" placeholder="내용(1,000자 제한)" rows="10" minLength="10" maxLength="1000" required></textarea>
             </div>
             <input id="submit" type="submit" value="보내기"/>
