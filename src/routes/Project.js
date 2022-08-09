@@ -3,7 +3,7 @@ import React from "react";
 function Project() {
 
   return (
-    <main className="container">
+    <main className="only_container">
       <div className="title">
         <h2>Projects</h2>
       </div>
@@ -11,7 +11,7 @@ function Project() {
         <div className="project_content" id="2022">
           <h3>2022</h3>
           <ul>
-            <li>2022.05.03 ~ 2022.05.21
+            <li>2022.05.03 ~ 2022.05.21 (2022.07.27 ~ 2022.08.05 Update)
               <div className="dropstyle">
                 <div className="dropdown">
                     <span className="dropbtn">- Doodling</span>
@@ -60,17 +60,6 @@ function Project() {
             </div>
 
             </li>
-            {/* <li>2022.02.07 ~ 2022.02.13
-            <div className="dropstyle">
-              <div className="dropdown">
-                  <span className="dropbtn">- React Native Weather & Todolist 만들기</span>
-                  <div className="dropdownContent">
-                    <a href="https://github.com/mintchocoicecream/WorkHardTravelHardApp.git">github</a>
-                    <a href="">App</a>
-                  </div>
-              </div>
-            </div>
-            </li> */}
             <li>2022.01.24 ~ 2022.02.08
             <div className="dropstyle">
               <div className="dropdown">

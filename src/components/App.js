@@ -23,25 +23,21 @@ function App() {
         </Route>
         <Route exact path="/Project">
           <Navigation />
-          <Header />
           <Project />
           <Footer />
         </Route>
         <Route exact path="/Board">
           <Navigation />
-          <Header />
             <Board />
             <Footer />
         </Route>
         <Route exact path="/Profile">
           <Navigation />
-          <Header />
             <Profile />
             <Footer />
         </Route>
         <Route exact path="/Contact">
           <Navigation />
-          <Header />
           <Contact />
           <Footer />
         </Route>

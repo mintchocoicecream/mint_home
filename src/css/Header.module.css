@@ -139,7 +139,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 box-shadow: 5px 5px 3px rgba(119, 119, 119, 0.493);
-border-radius: 10px;
+/* border-radius: 10px; */
 opacity: 0;
 animation: showHeader 1.5s ease-in-out forwards;
 }

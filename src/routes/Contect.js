@@ -23,7 +23,7 @@ function Contact() {
   };
 
   return (
-    <main className="container">
+    <main className="only_container">
         <div className="title">
         <h2>Contact</h2>
       </div> 

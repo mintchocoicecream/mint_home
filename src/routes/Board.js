@@ -3,7 +3,7 @@ import React from "react";
 function Board() {
 
   return (
-    <main className="container">
+    <main className="only_container">
             <div className="title">
         <h2>Board</h2>
       </div>
