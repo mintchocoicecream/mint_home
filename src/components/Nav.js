@@ -3,22 +3,8 @@ import {Link} from "react-router-dom";
 
 function Navigation() {
     const [activated, setActivated] = useState("");
-
-    useEffect(() => {
-        const pages = document.location.href.split("/");
-        let current = pages[3];
-        if(current === ""){
-            setActivated(current);
-        }else if(current === "Project"){
-            setActivated(current);
-        }else if(current === "Board"){
-            setActivated(current);
-        }else if(current === "Profile"){
-            setActivated(current);
-        }else if(current === "Contact"){
-            setActivated(current);
-        }
-    }, []);
+    const pages = document.location.href.split("/");
+    let current = pages[3];
 
     const onHome = () => {
         setActivated("");
@@ -48,7 +34,7 @@ function Navigation() {
                 <div className="navbarCollapse">
                     <ul className="navbarNav">
                         <li className="navItem" id="navItem">
-                            {activated === "" ? (
+                            {current === "" ? (
                                 <Link id="home" to="/" onClick={onHome} style={{color: "#20c997"}}>Home
                                 </Link>
                             ) : (
@@ -58,7 +44,7 @@ function Navigation() {
                             
                         </li>
                         <li className="navItem" id="navItem">
-                            {activated === "Project" ? (
+                            {current === "Project" ? (
                                 <Link id="project" to="/Project" onClick={onProject} style={{color: "#20c997"}}>Projects
                                 </Link>
                             ) : (
@@ -67,7 +53,7 @@ function Navigation() {
                             )}                            
                         </li>
                         <li className="navItem" id="navItem">
-                            {activated === "Board" ? (
+                            {current === "Board" ? (
                                 <Link id="board" to="/Board" onClick={onBoard} style={{color: "#20c997"}}>Board
                                 </Link>
                             ) : (
@@ -76,7 +62,7 @@ function Navigation() {
                             
                         </li>
                         <li className="navItem" id="navItem">
-                            {activated === "Profile" ? (
+                            {current === "Profile" ? (
                                 <Link id="profile" to="/Profile" onClick={onProfile} style={{color: "#20c997"}}>Profile
                                 </Link>
                             ) : (
@@ -84,7 +70,7 @@ function Navigation() {
                             )}                              
                         </li>
                         <li className="navItem" id="navItem">
-                            {activated === "Contact" ? (
+                            {current === "Contact" ? (
                                 <Link id="contact" to="/Contact" onClick={onContact} style={{color: "#20c997"}}>Contact
                                 </Link>
                             ) : (
