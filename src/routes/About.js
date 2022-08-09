@@ -5,7 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function Profile() {
   
   return (
-    <main className="container">
+    <main className="only_container">
       <div className="title">
         <h2>Profile</h2>
       </div>
@@ -31,7 +31,7 @@ function Profile() {
             </ul>
             <h3>Skills</h3>
             <ul>
-              <li>Python, Javascript, React, CSS3, Oracle</li>
+              <li>Javascript, Python, React, NextJS, CSS3, Oracle</li>
             </ul>
             <h3>Favorites</h3>
             <ul>
@@ -45,7 +45,7 @@ function Profile() {
                     <span>Github</span>
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
-                  <a href="https://solar-gram-d66.notion.site/Dev-133e8a6d037449aeb49f616cc9836f78">
+                  <a href="https://www.notion.so/mintchocoicecream/Dev-133e8a6d037449aeb49f616cc9836f78">
                     <span>Notion</span>
                     <div className="notion"></div>
                   </a>
