@@ -47,9 +47,11 @@
 }
 
 .boards {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(900px, 1fr));
+    grid-template-rows: auto;
     width: 100%;
-    border: 1px solid black;
     margin: 10px 0;
 }
 
