@@ -3,7 +3,6 @@ import Project from "../routes/Project";
 import Board from "../routes/Board";
 import Profile from "../routes/About";
 import Contact from "../routes/Contect";
-import Header from "./Header";
 import Navigation from "./Nav";
 import Home from "../routes/Home";
 import Footer from "./Footer";
@@ -15,9 +14,7 @@ function App() {
   <Router>
       <Switch>
         <Route exact path="/">
-          {/* <Start /> */}
           <Navigation />
-          <Header />
           <Home />
           <Footer />
         </Route>

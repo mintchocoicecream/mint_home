@@ -7,6 +7,8 @@ function Home() {
   return (
     <main className="container">
       <div className="content">
+        <div className="homeImage">
+        </div>
         <div className="griditem">
           <Link to="/Project">Projects</Link>
         </div>
@@ -18,6 +20,8 @@ function Home() {
         </div>
         <div className="griditem">
           <Link to="/Contact">Contact</Link>
+        </div>
+        <div className="homeImage">
         </div>
       </div>  
     </main>

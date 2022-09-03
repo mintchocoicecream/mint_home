@@ -10,7 +10,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faGithub} />
                 <span>mintchocoicecream</span>
             </a>
-            <h5>@MintchocoIcecream_2022</h5>
+            <h5>@MintchocoIcecream 2022</h5>
         </div>
       </footer>
     )

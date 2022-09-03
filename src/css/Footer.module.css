@@ -1,7 +1,7 @@
 footer {
     font-family: Montserrat, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --bs-bg-opacity: 1;
-    background-color: rgb(248, 255, 252);
+    background-color: rgb(232, 230, 230);
     color: #5a5a5a77;
     position: relative;
     display: flex;
@@ -27,22 +27,26 @@ footer {
   .github{
     display: flex;
     align-items: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
     border: 2px solid rgb(115, 22, 162);
-    padding: 2px 8px;
+    border-radius: 15px;
+    padding: 5px 10px;
     text-decoration: none;
+    color: rgb(115, 22, 162);
+  }
+
+  .github:hover{
+    opacity: .7;
   }
   
   footer h5{
     text-align: center;
+    color: rgba(255, 255, 255);
   }
   
   .github span{
     margin-left: 2%;
     font-size: small;
     font-weight: bold;
-    color: rgb(115, 22, 162);
   }
 
   @media (max-width: 800px) {
