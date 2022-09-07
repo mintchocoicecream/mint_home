@@ -11,6 +11,17 @@ function Project() {
         <div className="project_content" id="2022">
           <h3>2022</h3>
           <ul>
+          <li>2022.08.10 ~ 2022.09.07
+              <div className="dropstyle">
+                <div className="dropdown">
+                    <span className="dropbtn">- CSS Layout Collection</span>
+                    <div className="dropdownContent">
+                      <span>CSS Layout Master Class 23기 챌린지 참여</span>
+                      <a href="https://mintchocoicecream.github.io/CSSLayoutCollection/">web</a>
+                    </div>
+                  </div>
+              </div>
+            </li>
             <li>2022.05.03 ~ 2022.05.21 (2022.07.27 ~ 2022.08.05 Update)
               <div className="dropstyle">
                 <div className="dropdown">
