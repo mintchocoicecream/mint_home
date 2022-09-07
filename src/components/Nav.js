@@ -53,7 +53,7 @@ function Navigation() {
                             )}                            
                         </li>
                         <li className="navItem" id="navItem">
-                            {current === "Board" ? (
+                            {current === "Board" || current ==="BoardWrites" ? (
                                 <Link id="board" to="/Board" onClick={onBoard} style={{color: "#20c997"}}>Board
                                 </Link>
                             ) : (

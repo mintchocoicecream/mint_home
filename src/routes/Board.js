@@ -1,15 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
+import {Link} from "react-router-dom";
 
 function Board() {
-  const [addBoard, setAddBoard] = useState(false);
-
-  const onAddBoard = () => {
-    setAddBoard(true);
-};
-
-  const onModalCancel = () => {
-    setAddBoard(false);
-  }
 
   return (
     <main className="only_container">
@@ -19,7 +11,7 @@ function Board() {
       <div className="info">
           <div className="board_content">
             <div id="btn_upload">
-              <button onClick={onAddBoard}>+ 게시글 작성</button>
+              <Link to="/BoardWrites">게시물 작성</Link>
             </div>
             <div className="boards">
               <div className="boards_content">
@@ -31,14 +23,6 @@ function Board() {
                 </div>
               </div>
             </div>
-            {addBoard === true && (
-              <div className="board_modal">
-                <div id="modal_close">
-                  <button onClick={onModalCancel}>X</button>
-                </div>
-                <h3>작업 중...🛠</h3>
-              </div>
-            )}
         </div>
         
       </div>    
