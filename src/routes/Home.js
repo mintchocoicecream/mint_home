@@ -8,7 +8,7 @@ function Home() {
     <main className="container">
       <div className="mainImg">
         <div className="homes homeProject">
-          <Link to="/Project">Project</Link> 
+          <Link to="/Projects">Projects</Link> 
         </div>
         <div className="homes homeProfile">
           <Link to="/Profile">Profile</Link> 

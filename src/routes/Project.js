@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Project() {
+function Projects() {
 
   return (
     <main className="container">
@@ -86,4 +86,4 @@ function Project() {
     );
 }
 
-export default Project;
+export default Projects;

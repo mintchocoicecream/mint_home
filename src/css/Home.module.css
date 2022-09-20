@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.mainImg .homesNav {
+.mainImg .mainNav {
   display: flex;
   width: 100px;
   height: 270px;
@@ -60,12 +60,14 @@
   align-items: center;
   width: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .mainImg a {
   font-weight: bold;
   font-size: 2em;
   text-transform: uppercase;
+  color: black;
 }
 
 .mainNav a:hover {
