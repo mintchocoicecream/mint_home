@@ -16,7 +16,7 @@ function Home() {
         <div className="homes homeContact">
           <Link to="/Contact">Contact</Link> 
         </div>
-        <div className="homesNav">
+        <div className="homesNav mainNav">
           <Link to="/"></Link>
         </div>
       </div>
