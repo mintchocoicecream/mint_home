@@ -6,24 +6,20 @@ function Home() {
 
   return (
     <main className="container">
-      <div className="content">
-        <div className="homeImage">
+      <div className="mainImg">
+        <div className="homes homeProject">
+          <Link to="/Project">Project</Link> 
         </div>
-        <div className="griditem">
-          <Link to="/Project">Projects</Link>
+        <div className="homes homeProfile">
+          <Link to="/Profile">Profile</Link> 
         </div>
-        <div className="griditem">
-          <Link  to="/Board">Board</Link>
+        <div className="homes homeContact">
+          <Link to="/Contact">Contact</Link> 
         </div>
-        <div className="griditem">
-          <Link to="/Profile">Profile</Link>
+        <div className="homesNav">
+          <Link to="/"></Link>
         </div>
-        <div className="griditem">
-          <Link to="/Contact">Contact</Link>
-        </div>
-        <div className="homeImage">
-        </div>
-      </div>  
+      </div>
     </main>
     );
 }
