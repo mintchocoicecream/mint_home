@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import {Link} from "react-router-dom";
 
-function Home() {
+function Home() { 
+  const [activated, setActivated] = useState(false);
+  const sound = new Audio('../knocking.mp3');
 
+  const Clicks = () => {
+    setActivated(!activated);
+  }
+
+  const Sounds = () => {
+    sound.currentTime = 0;
+    sound.play();
+  }
+
+  const OffSounds = () => {
+    sound.paused();
+  }
 
   return (
     <main className="container">
@@ -18,6 +32,16 @@ function Home() {
         </div>
         <div className="homesNav mainNav">
           <Link to="/"></Link>
+        </div>
+        <div className="door" onClick={Clicks}>
+          {activated === true?(
+            <div className="doorOpen">
+              <div className="kitty"></div>
+            </div>
+          ) : (
+            <div className="doorClosed" onMouseOver={Sounds} onMouseLeave={OffSounds}>
+            </div>
+          )}
         </div>
       </div>
     </main>
