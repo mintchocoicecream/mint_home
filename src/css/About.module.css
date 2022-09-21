@@ -16,6 +16,116 @@
   background-image: url("../css/img/portfolio_basic_contact_2.png");
 }
 
+/*profile*/
+.profileMyImg {
+  background-image: url("../css/img/profiles.jpg");
+  width: 250px;
+  height: 220px;
+  background-size: cover;
+  left: 23%;
+  top: 29%;
+  border-radius: 5%;
+  position: absolute;
+  opacity: 0;
+  animation: showImg 1s ease-in-out forwards;
+}
+
+@keyframes showImg {
+  from {
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.profileWrites {
+  position: absolute;
+  left: 19%;
+  bottom: 12%;
+  width: 350px;
+  font-size: 1.1em;
+  font-family: serif;
+  line-height: 1.2;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.profileWrites > div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileName {
+  position: absolute;
+  right: 26%;
+  top: 25.5%;
+  opacity: 0.8;
+}
+
+.profileSkills {
+  width: 150px;
+  text-align: center;
+  position: absolute;
+  transform: rotate(5deg);
+  right: 29%;
+  top: 34%;
+}
+
+.profileSkills h3 {
+  text-transform: uppercase;
+}
+
+.profileSkills ul {
+  list-style-image: url("./img/flower.png");
+}
+
+.profileSkills li::before {
+  width: 2px;
+}
+
+.profileSkills ul li {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 4px 0;
+  border-bottom: 1px dashed rgb(254, 186, 0);
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.1em;
+}
+
+.profileFav {
+  text-align: center;
+  position: absolute;
+  line-height: 1em;
+  right: 35%;
+  bottom: 15%;
+}
+
+.github {
+  position: absolute;
+  right: 26%;
+  bottom: 21%;
+  transform: rotate(5deg);
+  font-size: 1.8em;
+  color: black;
+}
+
+.notion {
+  position: absolute;
+  right: 20.2%;
+  bottom: 16.5%;
+  transform: rotate(-3deg);
+}
+
+.profileNotion {
+  background-image: url("../css/img/notion.png");
+  width: 26px;
+  height: 26px;
+  background-size: cover;
+}
+
+.github:hover,
+.notion:hover {
+  animation: shaking 1s ease-in-out infinite;
+}
+
 /* contact */
 .info {
   display: flex;
@@ -60,12 +170,24 @@
 .contactForm > div > textarea {
   border: none;
   outline: none;
+  width: 5px;
   background-color: rgba(250, 235, 215, 0);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   font-size: 1.3em;
   padding: 5px 0;
   margin: 5px 0;
   font-family: "Nanum Pen Script", cursive;
+  opacity: 0;
+  animation: showContact 1s ease-in-out forwards;
+}
+
+@keyframes showContact {
+  from {
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
 }
 
 #submit {
@@ -82,10 +204,10 @@
 }
 
 #submit:hover {
-  animation: sending 1s ease-in-out infinite;
+  animation: shaking 1s ease-in-out infinite;
 }
 
-@keyframes sending {
+@keyframes shaking {
   0% {
   }
   25% {
