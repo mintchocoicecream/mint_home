@@ -8,6 +8,9 @@ function Profile() {
   return (
     <main className="container">
       <div className="profileImg">
+        <div className="roof">
+          Profile
+        </div>
         <div className="homesNav">
             <Link to="/"></Link>
         </div>
@@ -20,7 +23,7 @@ function Profile() {
           <p>나는 그 텅 빈 방을 우리가 언제나 계획하고 꿈꿔왔던 실험실과 비교하지 않고, 그 자체로 받아들이고, 열심히 노력하면 얼마든지 바꿀 수 있는 가능성을 본 빌의 눈에 감탄했다. 과거의 꿈과 현재의 현실 사이에 커다란 격차가 있었지만 그는 우리의 새 삶을 사랑할 준비가 되어 있었다. 나도 그 삶을 사랑하기 위해 노력해보겠다고 결심했다.</p>
           <div><p>- Lab Girl 中, Hope Jahren</p></div>
         </div>
-        <h3 className="profileName">Name : 서현정(Seo Hyunjeong)</h3>
+        <h3 className="profileName">Name : 서현정 (Seo Hyunjeong)</h3>
         <div className="profileSkills">
           <h3>" Skills "</h3>
           <ul>
@@ -32,11 +35,6 @@ function Profile() {
             <li>Python</li>
             <li>Oracle</li>
           </ul>
-        </div>
-        <div className="profileFav">
-          <h3>Favorites</h3>
-          <p>여행, 레고조립</p>
-          <p>필름사진, 영화감상</p>
         </div>
         <a className="github" href="https://github.com/mintchocoicecream">
           <FontAwesomeIcon icon={faGithub} />

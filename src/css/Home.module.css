@@ -3,9 +3,19 @@
   position: absolute;
   left: 50%;
   top: 50%;
+  opacity: 0;
   transform: translate(-50%, -50%);
   /* max-width: 1250px; */
   justify-content: center;
+  animation: showContainer 0.5s ease-in-out forwards;
+}
+
+@keyframes showContainer {
+  from {
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .mainImg {
@@ -72,4 +82,16 @@
 
 .mainNav a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.roof {
+  position: absolute;
+  left: 18%;
+  top: 13%;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
+  color: white;
+  text-transform: uppercase;
 }

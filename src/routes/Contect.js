@@ -26,6 +26,9 @@ function Contact() {
   return (
     <main className="container">
       <div className="contactImg">
+        <div className="roof">
+          Contact
+        </div>
         <div className="homesNav">
             <Link to="/"></Link>
         </div>

@@ -6,6 +6,9 @@ function Projects() {
   return (
     <main className="container">
       <div className="projectImg">
+        <div className="roof">
+          Projects
+        </div>
         <div className="homesNav">
             <Link to="/"></Link>
         </div>
