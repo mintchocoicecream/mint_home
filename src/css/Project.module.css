@@ -46,12 +46,22 @@
   position: absolute;
   /* background-color: white; */
   width: 750px;
-  height: 460px;
+  height: 440px;
   overflow-y: auto;
-  top: 27%;
+  top: 29%;
   left: 18%;
   padding: 10px;
   color: white;
+}
+
+.projects::-webkit-scrollbar {
+  width: 8px;
+  background-color: #4549bf;
+  border-radius: 50px;
+}
+
+.projects::-webkit-scrollbar-thumb {
+  background: whitesmoke;
 }
 
 .projectYear {

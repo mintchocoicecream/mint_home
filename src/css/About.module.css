@@ -224,3 +224,9 @@
   display: none;
   color: black;
 }
+
+h3,
+p,
+li {
+  cursor: default;
+}
