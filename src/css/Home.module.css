@@ -94,6 +94,7 @@
   font-style: italic;
   color: white;
   text-transform: uppercase;
+  cursor: default;
 }
 
 .door {
@@ -117,7 +118,7 @@
 }
 
 .kitty {
-  background-image: url("./img/kitty.png");
+  background-image: url("./img/cat.png");
   width: 110px;
   height: 110px;
   background-size: cover;
