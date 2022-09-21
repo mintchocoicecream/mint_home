@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script+KR&display=swap");
+
 .profileImg,
 .contactImg {
   width: 1200px;
@@ -11,7 +13,7 @@
 }
 
 .contactImg {
-  background-image: url("../css/img/portfolio_basic_contact.png");
+  background-image: url("../css/img/portfolio_basic_contact_2.png");
 }
 
 /* contact */
@@ -19,13 +21,14 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 750px;
-  height: 460px;
-  overflow-y: auto;
+  width: 780px;
+  height: 500px;
+  overflow: hidden;
   top: 27%;
   left: 18%;
   padding: 10px;
   color: white;
+  font-family: "Nanum Pen Script", cursive;
 }
 
 .profile_content {
@@ -45,8 +48,57 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-left: 50px;
+  padding-right: 80px;
+}
+
+.contactForm label {
+  font-size: 1.2em;
+}
+
+.contactForm > div > input,
+.contactForm > div > textarea {
+  border: none;
+  outline: none;
+  background-color: rgba(250, 235, 215, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 1.3em;
+  padding: 5px 0;
+  margin: 5px 0;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+#submit {
+  width: 120px;
+  height: 65px;
+  position: absolute;
+  right: 1px;
+  bottom: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  background-color: rgba(240, 248, 255, 0);
+  font-family: "Nanum Pen Script", cursive;
+}
+
+#submit:hover {
+  animation: sending 1s ease-in-out infinite;
+}
+
+@keyframes sending {
+  0% {
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+  100% {
+  }
 }
 
 .success {
   display: none;
+  color: black;
 }

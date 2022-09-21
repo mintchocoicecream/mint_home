@@ -37,18 +37,18 @@ function Contact() {
           <div className="profile_content">
             <form className="contactForm" onSubmit={SendEmail}>
               <div className="email">
-                <label for="email">보내는 분 이메일</label>
+                <label for="email">보내는 분 이메일:</label>
                 <input id="email" type="email" name="email" placeholder="example@email.com" required/>
               </div>
               <div className="msg">
-                <label for="name">보내는 분 성함</label>
+                <label for="name">보내는 분 성함:</label>
                 <input id="name" type="text" name="name" placeholder="my name is..." />
-                <label for="title">제목</label>
+                <label for="title">제목:</label>
                 <input id="title" type="text" name="title" placeholder="hello:)" required></input>
-                <label for="content">내용</label>
-                <textarea id="content" name="message" placeholder="내용(1,000자 제한)" rows="10" minLength="10" maxLength="1000" required></textarea>
+                <label for="content">메시지:</label>
+                <textarea id="content" name="message" placeholder="내용(500자 제한)" rows="8" minLength="10" maxLength="500" required></textarea>
               </div>
-              <input id="submit" type="submit" value="보내기"/>
+              <input id="submit" type="submit" value="전송"/>
             </form>
             <div id="success" className="success">
               <span>메일이 성공적으로 발송되었습니다😊</span>
