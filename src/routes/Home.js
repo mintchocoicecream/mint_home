@@ -1,21 +1,14 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
+import open from "../sounds/open.mp3";
 
 function Home() { 
   const [activated, setActivated] = useState(false);
-  const sound = new Audio('../knocking.mp3');
+  let sound = new Audio(open);
 
   const Clicks = () => {
     setActivated(!activated);
-  }
-
-  const Sounds = () => {
-    sound.currentTime = 0;
     sound.play();
-  }
-
-  const OffSounds = () => {
-    sound.paused();
   }
 
   return (
@@ -39,7 +32,7 @@ function Home() {
               <div className="kitty"></div>
             </div>
           ) : (
-            <div className="doorClosed" onMouseOver={Sounds} onMouseLeave={OffSounds}>
+            <div className="doorClosed" >
             </div>
           )}
         </div>
