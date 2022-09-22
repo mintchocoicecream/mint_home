@@ -103,8 +103,25 @@
   height: 195px;
   bottom: 12%;
   right: 27.5%;
-
   cursor: pointer;
+}
+
+.door:hover {
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  animation: doorscolor 2s ease-in-out infinite;
+}
+
+@keyframes doorscolor {
+  0% {
+    background-color: rgba(0, 255, 162, 0.106);
+  }
+  50% {
+    background-color: rgba(0, 255, 162, 0.5);
+  }
+  100% {
+    background-color: rgba(0, 255, 162, 0.106);
+  }
 }
 
 .doorOpen {

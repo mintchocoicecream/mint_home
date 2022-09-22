@@ -26,8 +26,8 @@
   top: 30.2%;
   position: absolute;
   opacity: 0;
-  animation: showImg 1s ease-in-out forwards;
-  animation-delay: 0.5s;
+  animation: showImg 1.8s ease-in-out forwards;
+  animation-delay: 0.8s;
 }
 
 @keyframes showImg {
@@ -83,6 +83,7 @@
   color: rgb(153, 0, 255);
   font-family: "Nanum Pen Script", cursive;
   position: relative;
+  cursor: default;
 }
 
 .skillsName > span {
@@ -248,7 +249,6 @@
 
 h3,
 p,
-span,
 li {
   cursor: default;
 }
