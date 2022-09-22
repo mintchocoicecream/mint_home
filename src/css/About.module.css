@@ -9,7 +9,7 @@
 }
 
 .profileImg {
-  background-image: url("../css/img/portfolio_profile.png");
+  background-image: url("../css/img/portfolio_basic_profile_ver3.png");
 }
 
 .contactImg {
@@ -19,11 +19,11 @@
 /*profile*/
 .profileMyImg {
   background-image: url("../css/img/profiles.jpg");
-  width: 240px;
-  height: 220px;
+  width: 210px;
+  height: 205px;
   background-size: cover;
-  left: 21.2%;
-  top: 29%;
+  left: 20.8%;
+  top: 30.2%;
   position: absolute;
   opacity: 0;
   animation: showImg 1s ease-in-out forwards;
@@ -41,77 +41,104 @@
 .profileWrites {
   position: absolute;
   left: 18%;
-  bottom: 12%;
-  width: 330px;
+  bottom: 11%;
+  width: 300px;
+  height: 200px;
   font-size: 1.2em;
   line-height: 1.1em;
-  opacity: 0.8;
+  opacity: 0.7;
   font-family: "Nanum Pen Script", cursive;
 }
 
 .profileWrites > p:nth-child(2) {
-  text-align: end;
+  position: absolute;
+  left: 40%;
+  bottom: 1%;
 }
 
 .profileName {
   position: absolute;
-  right: 27%;
-  top: 25%;
-  opacity: 0.8;
-  font-size: 1.2em;
+  right: 28%;
+  top: 27.5%;
+  opacity: 0.7;
+  font-size: 1.5em;
   font-family: "Nanum Pen Script", cursive;
 }
 
 .profileSkills {
-  width: 150px;
+  width: 490px;
+  height: 200px;
   text-align: center;
   position: absolute;
-  transform: rotate(2deg);
-  right: 29%;
-  top: 33%;
+  right: 18%;
+  top: 46%;
 }
 
-.profileSkills h3 {
-  text-transform: uppercase;
-}
-
-.profileSkills ul {
-  list-style-image: url("./img/flower.png");
-}
-
-.profileSkills li::before {
-  width: 2px;
-}
-
-.profileSkills ul li {
-  color: rgba(0, 0, 0, 0.8);
-  padding: 4px 0;
-  border-bottom: 1px dashed rgb(254, 186, 0);
-  font-family: "Nanum Pen Script", cursive;
+.skillsName {
+  width: 100%;
+  height: 100%;
   font-size: 1.1em;
+  opacity: 0.8;
+  font-weight: bold;
+  color: rgb(153, 0, 255);
+  font-family: "Nanum Pen Script", cursive;
+  position: relative;
+}
+
+.skillsName > span {
+  position: absolute;
+}
+
+.skillsName > span:nth-child(1) {
+  left: 3.5%;
+  top: 2%;
+  transform: rotate(14deg);
+}
+.skillsName > span:nth-child(2) {
+  left: 20%;
+  top: 35.5%;
+  transform: rotate(-14deg);
+}
+.skillsName > span:nth-child(3) {
+  left: 36%;
+  top: 8%;
+}
+.skillsName > span:nth-child(4) {
+  left: 49%;
+  top: 36%;
+  transform: rotate(5deg);
+}
+.skillsName > span:nth-child(5) {
+  left: 71%;
+  top: 10%;
+  transform: rotate(-5deg);
+}
+.skillsName > span:nth-child(6) {
+  left: 84%;
+  top: 35%;
+  transform: rotate(18deg);
 }
 
 .github {
   position: absolute;
-  right: 27%;
-  bottom: 20.2%;
-  transform: rotate(15deg);
-  font-size: 1.8em;
-  color: black;
+  right: 26.5%;
+  bottom: 17%;
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .notion {
   position: absolute;
-  right: 20.5%;
-  bottom: 16%;
-  transform: rotate(-3deg);
+  right: 21%;
+  bottom: 17.8%;
 }
 
 .profileNotion {
   background-image: url("../css/img/notion.png");
-  width: 26px;
-  height: 26px;
+  width: 42px;
+  height: 42px;
   background-size: cover;
+  opacity: 0.7;
 }
 
 .github:hover,
@@ -221,6 +248,7 @@
 
 h3,
 p,
+span,
 li {
   cursor: default;
 }

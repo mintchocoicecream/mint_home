@@ -26,16 +26,15 @@ function Profile() {
         </div>
         <h3 className="profileName">Name : 서현정 (Seo Hyunjeong)</h3>
         <div className="profileSkills">
-          <h3>" Skills "</h3>
-          <ul>
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>ReactJS</li>
-            <li>NextJS</li>
-            <li>CSS3</li>
-            <li>Python</li>
-            <li>Oracle</li>
-          </ul>
+          <div className="skillsName">
+            <span>Javascript</span>
+            <span>ReactJS</span>
+            <span>NextJS</span>
+            <span>Typescript</span>
+            <span>CSS3</span>
+            <span>Python</span>
+          </div>
+
         </div>
         <a className="github" href="https://github.com/mintchocoicecream">
           <FontAwesomeIcon icon={faGithub} />
