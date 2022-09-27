@@ -23,7 +23,6 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  /* background-color: white; */
   width: 750px;
   height: 440px;
   overflow-y: auto;
@@ -51,7 +50,12 @@
 .folders {
   width: 100%;
   display: flex;
-  /* background-color: bisque; */
+  flex-direction: column;
+}
+
+.foldersExp {
+  padding: 5px 10px;
+  font-size: 0.7em;
 }
 
 .foldersContent {
@@ -85,4 +89,101 @@
   width: 90px;
   height: 90px;
   background-size: cover;
+}
+
+.projInfos {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 700px;
+  height: 440px;
+  overflow: hidden;
+  top: 29%;
+  left: 20%;
+  padding: 20px;
+  overflow-y: auto;
+  opacity: 0;
+  animation: showProjs 0.5s ease-in-out forwards;
+}
+
+@keyframes showProjs {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.projInfos::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(245, 245, 245, 0.3);
+}
+
+.projInfos::-webkit-scrollbar-thumb {
+  background: var(--pink);
+}
+
+.infoBtn {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.infoBtn button {
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.infoBtn button:hover {
+  color: var(--pink);
+}
+
+.introInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoTitle p {
+  font-size: 0.8em;
+}
+
+.infoTitle h3 {
+  width: fit-content;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.infoMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoMain > p > p {
+  font-size: 0.8em;
+}
+
+.projBtns {
+  display: flex;
+  justify-content: center;
+}
+
+.projBtns a {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 3px;
+  margin: 0 5px;
+  font-size: 0.9em;
+}
+
+.projBtns a:hover {
+  border-bottom: 1px solid var(--pink);
+  color: var(--pink);
 }

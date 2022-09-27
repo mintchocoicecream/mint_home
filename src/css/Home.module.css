@@ -4,8 +4,7 @@
   left: 50%;
   top: 50%;
   opacity: 0;
-  transform: translate(-50%, -50%);
-  /* max-width: 1250px; */
+  transform: translate(-50%, -40%);
   justify-content: center;
   animation: showContainer 0.5s ease-in-out forwards;
 }
@@ -44,7 +43,8 @@
   cursor: pointer;
 }
 
-.homes:hover {
+.homes a:hover {
+  text-decoration: underline;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
