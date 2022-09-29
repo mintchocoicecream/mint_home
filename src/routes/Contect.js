@@ -30,7 +30,12 @@ function Contact() {
           Contact
         </div>
         <div className="navhome">
-            <Link to="/"></Link>
+          <Link to="/">
+            <span className="mobileNav">
+              <div></div>
+              mintchoco<br/>icecream
+            </span>
+          </Link>
         </div>
         <div className="projectsNav">
           <Link to="/Projects">Projects</Link>
