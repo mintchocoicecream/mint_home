@@ -11,7 +11,7 @@ function Profile() {
         <div className="roof">
           Profile
         </div>
-        <div className="homesNav">
+        <div className="navhome">
             <Link to="/"></Link>
         </div>
         <div className="projectsNav">

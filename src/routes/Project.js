@@ -22,8 +22,13 @@ function Projects() {
         <div className="roof">
           Projects
         </div>
-        <div className="homesNav">
-            <Link to="/"></Link>
+        <div className="navhome">
+            <Link to="/">
+              <span className="mobileNav">
+                <div></div>
+                mintchoco<br/>icecream
+              </span>
+            </Link>
         </div>
         <div className="projectsNav">
           <Link to="/Profile">Profile</Link>

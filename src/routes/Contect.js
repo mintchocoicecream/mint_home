@@ -29,7 +29,7 @@ function Contact() {
         <div className="roof">
           Contact
         </div>
-        <div className="homesNav">
+        <div className="navhome">
             <Link to="/"></Link>
         </div>
         <div className="projectsNav">
