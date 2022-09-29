@@ -24,7 +24,10 @@ function Home() {
           <Link to="/Contact">Contact</Link> 
         </div>
         <div className="homesNav mainNav">
-          <Link to="/"></Link>
+          <Link to="/">
+            <span></span>
+            mintchoco<br/>icecream
+          </Link>
         </div>
         <div className="door" onClick={Clicks}>
           {activated === true?(

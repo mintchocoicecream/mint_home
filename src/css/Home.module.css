@@ -125,7 +125,6 @@
 }
 
 .doorOpen {
-  /* position: absolute; */
   display: flex;
   align-items: flex-end;
   background-color: rgb(0, 0, 0);
@@ -141,7 +140,7 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1230px) and (min-width: 920px) {
   .container {
     left: 50%;
     top: 45%;
@@ -194,5 +193,72 @@
     left: 16%;
     top: 12.5%;
     font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .container {
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -40%);
+  }
+  .mainImg {
+    background-image: url("../css/img/m_home.png");
+    flex-direction: column;
+    width: 320px;
+    height: 100%;
+    min-height: 640px;
+  }
+  .homes {
+    width: 230px;
+    height: 115px;
+    left: 7.5%;
+    font-size: 0.8em;
+  }
+  .homeProject {
+    top: 14.5%;
+  }
+  .homeProfile {
+    top: 34%;
+  }
+  .homeContact {
+    top: 53.5%;
+  }
+  .mainImg .mainNav {
+    width: 228px;
+    height: 60px;
+    top: 2%;
+    left: 10.5%;
+  }
+  .homesNav a {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1em;
+    text-align: center;
+  }
+  .homesNav a > span {
+    background-image: url("../css/img/mintchocoM.png");
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+  }
+  .door {
+    width: 82px;
+    height: 110px;
+    bottom: 8.5%;
+    left: 32%;
+  }
+  .door:hover {
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+  .doorOpen {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .kitty {
+    width: 80px;
+    height: 80px;
   }
 }
