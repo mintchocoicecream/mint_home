@@ -49,7 +49,7 @@ function Contact() {
                 <label for="title">제목:</label>
                 <input id="title" type="text" name="title" placeholder="hello:)" required></input>
                 <label for="content">메시지:</label>
-                <textarea id="content" name="message" placeholder="내용(500자 제한)" rows="8" minLength="10" maxLength="500" required></textarea>
+                <textarea id="content" name="message" placeholder="내용(500자 제한)" rows="7" minLength="10" maxLength="500" required></textarea>
               </div>
               <input id="submit" type="submit" value="전송"/>
             </form>

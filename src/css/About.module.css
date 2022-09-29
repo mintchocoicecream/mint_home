@@ -245,6 +245,8 @@
 .success {
   display: none;
   color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0 5px;
 }
 
 h3,
@@ -261,4 +263,76 @@ li {
 .contactForm > div > textarea,
 #submit {
   font-family: var(--fontpen);
+}
+
+@media screen and (max-width: 1230px) {
+  .profileImg,
+  .contactImg {
+    width: 1000px;
+    height: 600px;
+    background-size: contain;
+  }
+  .profileMyImg {
+    width: 158px;
+    height: 155px;
+    left: 18.7%;
+    top: 30.2%;
+  }
+  .profileWrites {
+    left: 16.2%;
+    bottom: 7%;
+    width: 225px;
+    height: 180px;
+    font-size: 0.9em;
+  }
+  .profileWrites > p:nth-child(2) {
+    bottom: 15%;
+  }
+  .profileName {
+    right: 34%;
+    font-size: 1.2em;
+  }
+  .profileSkills {
+    width: 370px;
+    height: 160px;
+    right: 26.2%;
+    top: 46%;
+  }
+  .skillsName {
+    font-size: 0.9em;
+  }
+  .github {
+    right: 34%;
+    bottom: 17%;
+    font-size: 2em;
+  }
+  .notion {
+    right: 29%;
+    bottom: 17.8%;
+  }
+  .profileNotion {
+    width: 30px;
+    height: 30px;
+  }
+  .info {
+    width: 610px;
+    height: 380px;
+    top: 27%;
+    left: 15%;
+    padding: 10px;
+  }
+  .contactForm label {
+    font-size: 1em;
+  }
+  .contactForm > div > input,
+  .contactForm > div > textarea {
+    font-size: 1em;
+  }
+  #submit {
+    width: 50px;
+    height: 50px;
+    bottom: 2%;
+    right: 5%;
+    font-size: 1.1em;
+  }
 }

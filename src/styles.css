@@ -48,6 +48,6 @@ body {
 
 @media screen and (max-width: 1230px) {
   .projectsNav > a {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
