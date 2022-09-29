@@ -26,7 +26,10 @@ function Home() {
         <div className="homesNav mainNav">
           <Link to="/">
             <span></span>
-            mintchoco<br/>icecream
+            <span className="mobileNav">
+              <div></div>
+              mintchoco<br/>icecream
+            </span>
           </Link>
         </div>
         <div className="door" onClick={Clicks}>

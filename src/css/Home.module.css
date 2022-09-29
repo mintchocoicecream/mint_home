@@ -43,6 +43,10 @@
   cursor: pointer;
 }
 
+.mobileNav {
+  display: none;
+}
+
 .homes a:hover {
   text-decoration: underline;
   background-color: rgba(255, 255, 255, 0.3);
@@ -236,7 +240,17 @@
     font-size: 1em;
     text-align: center;
   }
-  .homesNav a > span {
+  .homesNav a span:first-child {
+    display: none;
+  }
+  .mobileNav {
+    display: flex;
+    width: inherit;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .mobileNav div {
     background-image: url("../css/img/mintchocoM.png");
     width: 50px;
     height: 50px;
@@ -256,7 +270,6 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
   }
-
   .kitty {
     width: 80px;
     height: 80px;
