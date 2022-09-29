@@ -185,4 +185,9 @@
     height: 80px;
     background-size: contain;
   }
+  .roof {
+    left: 16%;
+    top: 12.5%;
+    font-size: 1.2em;
+  }
 }

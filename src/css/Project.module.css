@@ -165,6 +165,10 @@
   align-items: center;
 }
 
+.infoMain img {
+  width: 450px;
+}
+
 .infoMain > p > p {
   font-size: 0.8em;
 }
@@ -186,4 +190,51 @@
 .projBtns a:hover {
   border-bottom: 1px solid var(--pink);
   color: var(--pink);
+}
+
+@media screen and (max-width: 1230px) {
+  .projectImg {
+    width: 1000px;
+    height: 600px;
+    background-size: contain;
+  }
+  .homesNav,
+  .projectsNav {
+    width: 80px;
+    right: 11.8%;
+  }
+  .projects {
+    width: 540px;
+    height: 330px;
+    padding: 8px;
+  }
+  .projectYear {
+    font-size: 0.9em;
+  }
+  .projFolder {
+    margin: 3px 10px;
+  }
+  .projFolder > span {
+    width: 60px;
+    height: 60px;
+  }
+  .projFolder > p {
+    width: 60px;
+    font-size: 0.5em;
+  }
+  .projInfos {
+    width: 530px;
+    height: 330px;
+    top: 29%;
+    left: 18%;
+  }
+  .infoMain img {
+    width: 400px;
+  }
+  .imgKat img {
+    width: 180px;
+  }
+  .infoMain p {
+    font-size: 0.8em;
+  }
 }
