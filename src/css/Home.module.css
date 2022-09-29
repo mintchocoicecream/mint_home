@@ -140,3 +140,49 @@
   height: 110px;
   background-size: cover;
 }
+
+@media screen and (max-width: 1230px) {
+  .mainImg {
+    width: 1000px;
+    height: 600px;
+    background-size: contain;
+  }
+  .homes {
+    width: 280px;
+    height: 180px;
+  }
+  .homeProject {
+    left: 13.8%;
+    top: 23%;
+  }
+
+  .homeProfile {
+    top: 23%;
+    left: 46.2%;
+  }
+
+  .homeContact {
+    left: 13.8%;
+    top: 58%;
+  }
+  .mainImg .mainNav {
+    width: 78px;
+    height: 208px;
+    top: 22.2%;
+    right: 12%;
+  }
+  .mainImg a {
+    font-size: 1.5em;
+  }
+  .door {
+    width: 90px;
+    height: 145px;
+    bottom: 12%;
+    right: 34.5%;
+  }
+  .kitty {
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+  }
+}
