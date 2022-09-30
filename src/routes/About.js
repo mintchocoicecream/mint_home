@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faBook, faCameraRetro, faClapperboard, faPlane } from "@fortawesome/free-solid-svg-icons";
 
 function Profile() {
   
@@ -40,6 +41,15 @@ function Profile() {
             <span>Python</span>
           </div>
 
+        </div>
+        <div className="profileHobby">
+          <span>Fav♥rites</span>
+          <div>
+            <p><FontAwesomeIcon icon={faCameraRetro}/>Film Camera</p>
+            <p><FontAwesomeIcon icon={faPlane}/>Travel</p>
+            <p><FontAwesomeIcon icon={faBook}/>Reading Books</p>
+            <p><FontAwesomeIcon icon={faClapperboard}/>Watching Movies</p>
+          </div>
         </div>
         <a className="github" href="https://github.com/mintchocoicecream">
           <FontAwesomeIcon icon={faGithub} />
